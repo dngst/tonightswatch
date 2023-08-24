@@ -2,6 +2,8 @@
 
 > Fixed movie recommendations
 
+![Screenshot](Screenshot.png)
+
 ## Install
 
 $ bin/setup

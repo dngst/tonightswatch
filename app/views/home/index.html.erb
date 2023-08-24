@@ -2,5 +2,6 @@
   <% @movies.each do |movie| %>
     <%= render 'home/movie', movie: movie %>
   <% end %>
+  <%== pagy_nav(@pagy) %>
 </div>
 
