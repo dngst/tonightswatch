@@ -2,6 +2,9 @@
   <% @movies.each do |movie| %>
     <%= render 'home/movie', movie: movie %>
   <% end %>
+  <a href="https://www.themoviedb.org" target="_blank">
+    <img src="<%= asset_path('tmdb.svg') %>" alt="TMDB" class="w-10" />
+  </a>
   <%== pagy_nav(@pagy) %>
 </div>
 
