@@ -55,3 +55,6 @@ Movie.create(title:"Akira", poster_img_url:"https://image.tmdb.org/t/p/w500/neZ0
 Movie.create(title:"Sympathy for the Devil", poster_img_url:"https://image.tmdb.org/t/p/w500/afGdVMa80LMs6ibLP22CwM5uI4e.jpg", imdb_page:"https://www.imdb.com/title/tt21991654/")
 Movie.create(title:"Ghost in the Shell", poster_img_url:"https://image.tmdb.org/t/p/w500/9gC88zYUBARRSThcG93MvW14sqx.jpg", imdb_page:"https://www.imdb.com/title/tt0113568/")
 Movie.create(title:"Source Code", poster_img_url:"https://image.tmdb.org/t/p/w500/AtQDTlj3MFOXJd5C9OopaRo3rRo.jpg", imdb_page:"https://www.imdb.com/title/tt0945513/")
+Movie.create(title:"Little Buddha", poster_img_url:"https://image.tmdb.org/t/p/w500/xy70xtdoKZ3PxlKkakwdhL3UFDQ.jpg", imdb_page:"https://www.imdb.com/title/tt0107426/")
+Movie.create(title:"Doctor Strange", poster_img_url:"https://image.tmdb.org/t/p/w500/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg", imdb_page:"https://www.imdb.com/title/tt1211837/")
+Movie.create(title:"Deep Cover", poster_img_url:"https://image.tmdb.org/t/p/w500/etr2mCm7gMufAJkSLuB23XocDtd.jpg", imdb_page:"https://www.imdb.com/title/tt0104073/")
