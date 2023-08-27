@@ -58,3 +58,6 @@ Movie.create(title:"Source Code", poster_img_url:"https://image.tmdb.org/t/p/w50
 Movie.create(title:"Little Buddha", poster_img_url:"https://image.tmdb.org/t/p/w500/xy70xtdoKZ3PxlKkakwdhL3UFDQ.jpg", imdb_page:"https://www.imdb.com/title/tt0107426/")
 Movie.create(title:"Doctor Strange", poster_img_url:"https://image.tmdb.org/t/p/w500/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg", imdb_page:"https://www.imdb.com/title/tt1211837/")
 Movie.create(title:"Deep Cover", poster_img_url:"https://image.tmdb.org/t/p/w500/etr2mCm7gMufAJkSLuB23XocDtd.jpg", imdb_page:"https://www.imdb.com/title/tt0104073/")
+Movie.create(title:"Close Encounters of the Third Kind", poster_img_url:"https://image.tmdb.org/t/p/w500/4zfedS25uMAhgm6YQhc9bhKHbLl.jpg", imdb_page:"https://www.imdb.com/title/tt0075860/")
+Movie.create(title:"Videodrome", poster_img_url:"https://image.tmdb.org/t/p/w500/qqqkiZSU9EBGZ1KiDmfn07S7qvv.jpg", imdb_page:"https://www.imdb.com/title/tt0086541/")
+Movie.create(title:"In Full Bloom", poster_img_url:"https://image.tmdb.org/t/p/w500/613YOhOiOxQMj80Relyq6ip4xsV.jpg", imdb_page:"https://www.imdb.com/title/tt4538670/")
