@@ -64,3 +64,6 @@ Movie.create(title:"In Full Bloom", poster_img_url:"https://image.tmdb.org/t/p/w
 Movie.create(title:"The Adventures of Tintin", poster_img_url:"https://image.tmdb.org/t/p/w500/mKYkNro2btaWMsnYSuyqrBdHQo3.jpg", imdb_page:"https://www.imdb.com/title/tt0983193/")
 Movie.create(title:"The Sting", poster_img_url:"https://image.tmdb.org/t/p/w500/fpxhmgeCuPQOeatfeCPwtOwUwlb.jpg", imdb_page:"https://www.imdb.com/title/tt0070735/")
 Movie.create(title:"Avatar", poster_img_url:"https://image.tmdb.org/t/p/w500/kyeqWdyUXW608qlYkRqosgbbJyK.jpg", imdb_page:"https://www.imdb.com/title/tt0499549/")
+Movie.create(title:"The Boys from Brazil", poster_img_url:"https://image.tmdb.org/t/p/w500/w7IZT1HJNmWcEj3Axwlwhya02OX.jpg", imdb_page:"https://www.imdb.com/title/tt0077269/")
+Movie.create(title:"The Illusionist", poster_img_url:"https://image.tmdb.org/t/p/w500/4I1oOPHNrHLcvz3wTMuETJLws9z.jpg", imdb_page:"https://www.imdb.com/title/tt0443543/")
+Movie.create(title:"Fallen Angels", poster_img_url:"https://image.tmdb.org/t/p/w500/yyM9BPdwttK5LKZSLvHae7QPKo1.jpg", imdb_page:"https://www.imdb.com/title/tt0112913/")
