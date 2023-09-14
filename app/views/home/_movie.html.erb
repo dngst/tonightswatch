@@ -1,6 +1,6 @@
 <div class="m-5 text-center">
  <a href=<%= movie.imdb_page %> target='_blank'>
-  <img class="inline" src=<%= movie.poster_img_url %> alt=<%= movie.title %> />
+   <%= image_tag movie.poster_img_url, alt: movie.title %>
  </a>
 </div>
 
