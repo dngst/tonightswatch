@@ -1,10 +1,12 @@
-<div class="lg:grid lg:grid-cols-3 ml-auto mr-auto">
-  <%= render partial: 'home/movie', collection: @movies, cached: true %>
-  <a href="https://www.themoviedb.org" target="_blank">
-    <%= image_tag 'tmdb.svg', alt:'TMDB logo', class:'w-10' %>
-  </a>
-  <div class="text-center">
-    <%== pagy_nav(@pagy) %>
+<%= turbo_frame_tag "movies" do %>
+  <div class="lg:grid lg:grid-cols-3 ml-auto mr-auto">
+    <%= render partial: 'home/movie', collection: @movies, cached: true %>
+    <a href="https://www.themoviedb.org" target="_blank">
+      <%= image_tag 'tmdb.svg', alt:'TMDB logo', class:'w-10' %>
+    </a>
+    <div class="text-center">
+      <%== pagy_nav(@pagy) %>
+    </div>
   </div>
-</div>
+<% end %>
 
