@@ -1,11 +1,17 @@
 <%= turbo_frame_tag "movies" do %>
-  <div class="lg:grid lg:grid-cols-3 ml-auto mr-auto">
+  <div class="lg:grid lg:grid-cols-3">
     <%= render partial: 'home/movie', collection: @movies, cached: true %>
-    <a href="https://www.themoviedb.org" target="_blank">
-      <%= image_tag 'tmdb.svg', alt:'TMDB logo', class:'w-10' %>
-    </a>
+  </div>
+
+  <div class="flex mt-auto pt-4 justify-between">
+    <div>
+      <a href="https://www.themoviedb.org" target="_blank">
+        <%= image_tag 'tmdb.svg', alt:'TMDB logo', class:'w-10' %>
+      </a>
+    </div>
+
     <div
-        class="text-center"
+        class="lg:mx-auto"
         data-controller="pagenavigation"
         data-action="keydown@window->pagenavigation#handleKeyDown"
         tabindex="0">
