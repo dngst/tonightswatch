@@ -4,7 +4,11 @@
     <a href="https://www.themoviedb.org" target="_blank">
       <%= image_tag 'tmdb.svg', alt:'TMDB logo', class:'w-10' %>
     </a>
-    <div class="text-center">
+    <div
+        class="text-center"
+        data-controller="pagenavigation"
+        data-action="keydown@window->pagenavigation#handleKeyDown"
+        tabindex="0">
       <%== pagy_nav(@pagy) %>
     </div>
   </div>
