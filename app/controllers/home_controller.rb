@@ -1,8 +1,8 @@
 class HomeController < ApplicationController
   def index
-    ids = Rails.cache.fetch('movie_ids', expires_in: 12.hours) do
+    ids = Rails.cache.fetch('movie_ids') do
       Movie.pluck(:id)
     end
-    @pagy, @movies = pagy(Movie.where(id: ids).order('created_at DESC'))
+    @pagy, @movies = pagy(Movie.where(id: ids).order(created_at: :desc))
   end
 end
