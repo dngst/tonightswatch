@@ -1,4 +1,4 @@
-<%= turbo_frame_tag "movies" do %>
+<%= turbo_frame_tag "movies", data: { turbo_action: "advance" } do %>
   <div class="lg:grid lg:grid-cols-3">
     <%= render partial: 'home/movie', collection: @movies, cached: true %>
   </div>
