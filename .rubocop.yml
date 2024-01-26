@@ -1,5 +1,7 @@
 require:
   - rubocop-rails
+  - rubocop-rspec
+  - rubocop-performance
 
 AllCops:
   NewCops: enable
@@ -8,9 +10,5 @@ AllCops:
     - 'db/**/*'
     - 'config/**/*'
 
-Style/FrozenStringLiteralComment:
-  Enabled: false
-
 Style/Documentation:
   Enabled: false
-

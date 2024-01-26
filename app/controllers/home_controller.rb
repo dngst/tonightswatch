@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class HomeController < ApplicationController
   def index
     ids = Rails.cache.fetch('movie_ids') do
