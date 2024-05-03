@@ -77,3 +77,4 @@ Movie.find_or_create_by!(title:"Gotti", poster_img_url:"https://image.tmdb.org/t
 Movie.find_or_create_by!(title:"Jackie Brown", poster_img_url:"https://image.tmdb.org/t/p/w500/ewbLUXvm4riZL0aepy90o0vMesn.jpg", imdb_page:"https://www.imdb.com/title/tt0119396/")
 Movie.find_or_create_by!(title:"The Man from Earth", poster_img_url:"https://image.tmdb.org/t/p/w500/V086R82gNgWrotaXZFO4JhdgB1.jpg", imdb_page:"https://www.imdb.com/title/tt0756683/")
 Movie.find_or_create_by!(title:"The Holdovers", poster_img_url:"https://image.tmdb.org/t/p/w500/VHSzNBTwxV8vh7wylo7O9CLdac.jpg", imdb_page:"https://www.imdb.com/title/tt14849194/")
+Movie.find_or_create_by!(title:"Wild Tales", poster_img_url:"https://image.tmdb.org/t/p/w500/bU7IUeTdYFOgeUPtwpWKQNhORMC.jpg", imdb_page:"https://www.imdb.com/title/tt3011894/")
