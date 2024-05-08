@@ -28,7 +28,7 @@ Movie.find_or_create_by!(title:"Soul", poster_img_url:"https://image.tmdb.org/t/
 Movie.find_or_create_by!(title:"Cars", poster_img_url:"https://image.tmdb.org/t/p/w500/abW5AzHDaIK1n9C36VdAeOwORRA.jpg", imdb_page:"https://www.imdb.com/title/tt0317219/")
 Movie.find_or_create_by!(title:"The Wolf of Wall Street", poster_img_url:"https://image.tmdb.org/t/p/w500/34m2tygAYBGqA9MXKhRDtzYd4MR.jpg", imdb_page:"https://www.imdb.com/title/tt0993846/")
 Movie.find_or_create_by!(title:"Life of Pi", poster_img_url:"https://image.tmdb.org/t/p/w500/iLgRu4hhSr6V1uManX6ukDriiSc.jpg", imdb_page:"https://www.imdb.com/title/tt0454876/")
-Movie.find_or_create_by!(title:"Everything Everywhere All at Once", poster_img_url:"https://image.tmdb.org/t/p/w500/rKvCys0fMIIi1X9rmJBxTPLAtoU.jpg", imdb_page:"https://www.imdb.com/title/tt6710474/")
+Movie.find_or_create_by!(title:"Everything Everywhere All at Once", poster_img_url:"https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg", imdb_page:"https://www.imdb.com/title/tt6710474/")
 Movie.find_or_create_by!(title:"Transformers: Dark of the Moon", poster_img_url:"https://image.tmdb.org/t/p/w500/28YlCLrFhONteYSs9hKjD1Km0Cj.jpg", imdb_page:"https://www.imdb.com/title/tt1399103/")
 Movie.find_or_create_by!(title:"The Matrix", poster_img_url:"https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg", imdb_page:"https://www.imdb.com/title/tt0133093/")
 Movie.find_or_create_by!(title:"The Silence of the Lambs", poster_img_url:"https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg", imdb_page:"https://www.imdb.com/title/tt0102926/")
