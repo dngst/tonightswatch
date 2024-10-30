@@ -79,3 +79,4 @@ Movie.find_or_create_by!(title:"The Man from Earth", poster_img_url:"https://ima
 Movie.find_or_create_by!(title:"The Holdovers", poster_img_url:"https://image.tmdb.org/t/p/w500/VHSzNBTwxV8vh7wylo7O9CLdac.jpg", imdb_page:"https://www.imdb.com/title/tt14849194/")
 Movie.find_or_create_by!(title:"Wild Tales", poster_img_url:"https://image.tmdb.org/t/p/w500/bU7IUeTdYFOgeUPtwpWKQNhORMC.jpg", imdb_page:"https://www.imdb.com/title/tt3011894/")
 Movie.find_or_create_by!(title:"Mars Express", poster_img_url:"https://image.tmdb.org/t/p/w500/mpGbDJUsPdnoy4Xukz7S4tZRciN.jpg", imdb_page:"https://www.imdb.com/title/tt26915336/")
+Movie.find_or_create_by!(title:"Transformers One", poster_img_url:"https://image.tmdb.org/t/p/w500/qrwI2T844nrBUv3eDwQZRDdgSFs.jpg", imdb_page:"https://www.imdb.com/title/tt8864596/")
